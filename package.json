@@ -1,0 +1,25 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "using html, tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrivastavsumit/twitter-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrivastavsumit/twitter-clone/issues"
+  },
+  "homepage": "https://github.com/shrivastavsumit/twitter-clone#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.3",
+    "tailwindcss": "^4.0.3"
+  }
+}
