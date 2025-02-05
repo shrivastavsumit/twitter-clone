@@ -6,10 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's Whats's Happening</title>
     <link rel="stylesheet" href="css/output.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&text=home,search,notifications,mail,list_alt,bookmark,group,workspace_premium,person,more_horiz" />
 </head>
 
-<body>
-    <div class="text-white bg-black w-auto">this is a text</div>
+<body class="bg-black text-white">
+    <div class="flex container mx-auto">
+        <div class="first w-full flex flex-col items-start">
+            <div class="logo mt-5 ml-12">
+                <a href="https://x.com/" target="_blank">
+                    <img src="./imges/logo.svg" alt="" class="w-8">
+                </a>
+            </div>
+            <div class=" sidebar my-6 ml-8 flex justify-end">
+                <ul class="flex flex-col items-start text-2xl">
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer hover:transition-all transition-discrete hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined">home</span>
+                        <span class="hidden md:inline">Home</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> search </span>
+                        <span class="hidden md:inline">Explore</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined">notifications</span>
+                        <span class="hidden md:inline">Notifications</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> mail </span>
+                        <span class="hidden md:inline">Messages</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> list_alt </span>
+                        <span class="hidden md:inline">Lists</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> bookmark </span>
+                        <span class="hidden md:inline">Bookmarks</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> group </span>
+                        <span class="hidden md:inline">Communities</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> workspace_premium </span>
+                        <span class="hidden md:inline">Premium</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> person </span>
+                        <span class="hidden md:inline">Profile</span>
+                    </li>
+                    <li
+                        class="flex items-center justify-center p-3 cursor-pointer  hover:bg-blue-400 hover:rounded-2xl">
+                        <span class="md:mr-4 lg:mr-4 mr-0 material-symbols-outlined"> more_horiz </span>
+                        <span class="hidden md:inline">More</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="post-btn ml-8 bg-blue-400 w-60 p-3 text-center rounded-3xl cursor-pointer">Post</div>
+            <div class="profile-card mt-8 flex items-center justify-evenly w-full">
+                <img src="https://avatars.githubusercontent.com/u/105596954?v=4" alt="" class="w-14 h-14 rounded-full">
+                <div class="profile-info">
+                    <div class="name">Pushpendra Shrivastav</div>
+                    <a href="https://github.com/shrivastavsumit" target="_blank" class="">@shrivastavsumit</a>
+                </div>
+                <div class="material-symbols-outlined"> more_horiz </div>
+            </div>
+        </div>
+        <div class="second w-full border-x border-gray-400 flex justify-center">b
+        </div>
+        <div class="third w-full">c</div>
 </body>
 
 </html>
