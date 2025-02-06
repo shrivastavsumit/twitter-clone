@@ -13,13 +13,13 @@
 
 <body class="bg-black text-white">
     <div class="flex container mx-auto">
-        <div class="first w-full flex flex-col items-start">
+        <div class="first w-[60%] flex flex-col items-start">
             <div class="logo mt-5 ml-12">
                 <a href="https://x.com/" target="_blank">
                     <img src="./imges/logo.svg" alt="" class="w-8">
                 </a>
             </div>
-            <div class=" sidebar my-6 ml-8 flex justify-end">
+            <div class="sidebar my-6 ml-8 flex justify-end">
                 <ul class="flex flex-col items-start text-2xl">
                     <li
                         class="flex items-center justify-center p-3 cursor-pointer hover:transition-all transition-discrete hover:bg-blue-400 hover:rounded-2xl">
@@ -64,19 +64,72 @@
                     </li>
                 </ul>
             </div>
-            <div class="post-btn ml-8 bg-blue-400 w-60 p-3 text-center rounded-3xl cursor-pointer">Post</div>
+            <div
+                class="post-btn bg-blue-400 text-center rounded-3xl cursor-pointer ml-4 md:ml-8 w-20 md:w-40 lg:w-60 p-1 md:p-2 lg:p-3">
+                Post</div>
             <div class="profile-card mt-8 flex items-center justify-evenly w-full">
                 <img src="https://avatars.githubusercontent.com/u/105596954?v=4" alt="" class="w-14 h-14 rounded-full">
-                <div class="profile-info">
+                <div class="profile-info md:block lg:block hidden">
                     <div class="name">Pushpendra Shrivastav</div>
                     <a href="https://github.com/shrivastavsumit" target="_blank" class="">@shrivastavsumit</a>
                 </div>
-                <div class="material-symbols-outlined"> more_horiz </div>
+                <div class="material-symbols-outlined hidden md:inline-block lg:inline-block"> more_horiz </div>
             </div>
         </div>
-        <div class="second w-full border-x border-gray-400 flex justify-center">b
+
+        <div class="second w-full border-x border-gray-400 flex justify-center">
+            <h2 class="text-3xl text-white">Hello</h2>
         </div>
-        <div class="third w-full">c</div>
+
+        <div class="third w-[65%] flex flex-col items-start p-4">
+            <div class="search relative flex items-center justify-center">
+                <input type="text"
+                    class="w-80 h-10 rounded-3xl bg-gray-950 text-white py-3 px-10 hover:bg-gray-700 hover:text-black placeholder:text-center"
+                    placeholder="Search X">
+                <span class="material-symbols-outlined absolute left-3 top-2">search</span>
+            </div>
+            <div class="trending flex flex-col bg-gray-950 w-80 rounded-2xl px-6 py-5 mt-10">
+                <p class="text-2xl font-bold text-slate-300 border-b-2 border-gray-500">What's Trending</p>
+                <ul>
+                    <li class="border-b-1 border-slate-900 cursor-pointer">
+                        <div class="flex flex-col p-2 mt-1 w-full">
+                            <div class="text-white">Trending Worldwide</div>
+                            <div class="text-xl text-white font-bold">#deepseek</div>
+                            <div class="desc font-semibold text-slate-300">100k Tweets</div>
+                        </div>
+                    </li>
+                    <li class="border-b-1 border-slate-900 cursor-pointer">
+                        <div class="flex flex-col p-2 mt-1 w-full">
+                            <div class="text-white">Mahakumbh</div>
+                            <div class="text-xl text-white font-bold">#mahakumbha2025</div>
+                            <div class="desc font-semibold text-slate-300">1M Tweets</div>
+                        </div>
+                    </li>
+                    <li class="border-b-1 border-slate-900 cursor-pointer">
+                        <div class="flex flex-col p-2 mt-1 w-full">
+                            <div class="text-white">Prayagraj</div>
+                            <div class="text-xl text-white font-bold">#praygrajkumbh</div>
+                            <div class="desc font-semibold text-slate-300">30k Tweets</div>
+                        </div>
+                    </li>
+                    <li class="border-b-1 border-slate-900 cursor-pointer">
+                        <div class="flex flex-col p-2 mt-1 w-full">
+                            <div class="text-white">Varanasi</div>
+                            <div class="text-xl text-white font-bold">#masaanholi</div>
+                            <div class="desc font-semibold text-slate-300">10k Tweets</div>
+                        </div>
+                    </li>
+                    <li class="border-b-1 border-slate-900 cursor-pointer">
+                        <div class="flex flex-col p-2 mt-1 w-full">
+                            <div class="text-white">Elon Musk</div>
+                            <div class="text-xl text-white font-bold">#muskDeepseek</div>
+                            <div class="desc font-semibold text-slate-300">500k Tweets</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="show-more cursor-pointer text-blue-400 flex items-center pt-2 pl-2">Show More...</div>
+            </div>
+        </div>
 </body>
 
 </html>
